@@ -1,0 +1,219 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading View</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .example5 {
+       height: 88px;	
+       overflow: hidden;
+       position: relative;
+      }
+      .example5 h3 {
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       margin: 0;
+       padding: 0;
+       line-height: 70px;
+       text-align: left;
+       font-size: 100px;
+       font-family: Arial;
+       color: lightcoral;
+       /* Apply animation to this element */	
+       -moz-animation: example5 5s linear infinite alternate;
+       -webkit-animation: example5 5s linear infinite alternate;
+       animation: example5 5s linear infinite alternate;
+      }
+      /* Move it (define the animation) */
+      @-moz-keyframes example5 {
+       0%   { -moz-transform: translateX(70%); }
+       100% { -moz-transform: translateX(0%); }
+      }
+      @-webkit-keyframes example5 {
+       0%   { -webkit-transform: translateX(70%); }
+       100% { -webkit-transform: translateX(0%); }
+      }
+      @keyframes example5 {
+       0%   { 
+       -moz-transform: translateX(70%); /* Firefox bug fix */
+       -webkit-transform: translateX(70%); /* Firefox bug fix */
+       transform: translateX(70%); 		
+       }
+       100% { 
+       -moz-transform: translateX(0%); /* Firefox bug fix */
+       -webkit-transform: translateX(0%); /* Firefox bug fix */
+       transform: translateX(0%); 
+       }
+      }
+      </style>
+
+ </head>
+ <body>
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+          <h5 class="text-white h4" >Trading View</h5>
+          <h5 class="text-white h4">Look first/<br>Then Leap</h5>
+          <span class="text-muted">The best trades require research, then commitment.</span>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+       
+      
+      <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+<br>
+
+<div class="example5">
+  <h3>STOCK MARKET </h3>
+  </div>
+  <section>
+    <div class="circle circle1">
+      <img src="data:image/jpeg;base64,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"
+      width="500px" height="500px">
+    </div>
+    <div>
+      <h2 style="font-family: poppins,sans-serif;"><span style="color: lightcoral;font-size: 50px;"><i>Nagaraj B</i></span>
+        <span style="color: black;">Stock Master | Academic Head | Speaker | Learning and Development</span>
+        <p>With over 18 years of experience in capital markets and investment, I have developed a strong understanding of these concepts.
+        <br>I possess excellent skills in training and implementing strategies in the stock market, as well as in computer networking.
+        My track record demonstrates a proven ability to effectively analyze and manage stock positions.<br>
+        I am known for my proactive and flexible leadership style, which enables me to meet tight deadlines and motivate teams even in high-pressure situations.
+        One of my key strengths is my ability to set specific, measurable, attainable, realistic, and time-bound financial objectives.
+        <br>I am highly proficient in creating stock portfolios and possess exceptional skills in developing
+        <br> trading strategies and coordinating the preparation of tactical plans.</h2></p>
+    </div>
+  </section>
+  
+  <div  style="background-color: black; " >
+    <p style="text-align: center; font-family: Arial, Helvetica, sans-serif; font-size: 150px; color: antiquewhite;">
+      Where the world does<br>market</p>
+       
+      <video class="video-uAi0Mdkb video-z5YSpCnx" autoplay="" loop="" playsinline="" disableremoteplayback="" poster="https://static.tradingview.com/static/bundles/chart-big-poster.b6f6b6f01fd775958076.jpg"><source src="https://static.tradingview.com/static/bundles/chart-big.hvc1.3910a83033e59ce235f1.mp4" type="video/mp4;codecs=hvc1.1.0.L150.b0"><source src="https://static.tradingview.com/static/bundles/chart-big.bf1783e43b541a0013bb.webm" type="video/webm"><source src="https://static.tradingview.com/static/bundles/chart-big.avc1.07d7335ab42ae492fa02.mp4" type="video/webm;codecs=avc1"></video>
+  </div>
+  
+  <div class="trad">
+    <marquee  direction="right" >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM19a90nzYxlYxHfn-NUaqF3Ee8bd9XDRLUg&usqp=CAU" class="img-fluid" alt="..." >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUB8MJhLca7AOKRRE0WFW7een-jCY_uIxQ_g&usqp=CAU"  >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG-F2cIwr7K5iUX8RCRActbiXnzAdpG2qdKA&usqp=CAU"  >
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNmSDnuN3a5dIOxS8-1lGxY6fvkBQQbOw7g&usqp=CAU">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKF4wBlgkaaAyLG4l8IdjV7LCcK2VkI20uZg&usqp=CAU">
+    </marquee>
+     </div>
+     <div class="trad">
+      <marquee  direction="left" >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdYfjXJX3taCRV_Npm8Tvlwv9MRxdtug0w3w&usqp=CAU" class="img-fluid" alt="..." >
+        <img src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbpmnxNZg5M6CWsIFXNAvW-oFmYuGzLwAs2Q&usqp=CAU"  >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFSSgRYsb_td_VPH102MGACxDoBN27ZNqdJw&usqp=CAU "  >
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4YxVTN0r9mcsh8sa3KI1qK0fGeOZ_5mqSIg&usqp=CAU ">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlzVr5F_uXj7T98ilooV-vByhmUFusBis77w&usqp=CAU ">
+      </marquee>
+       </div>   
+     
+     <div class="zero" >
+     
+      <img src="https://blinkx.in/lp/assets/images/landingimg/blink1.webp"  >
+      <img src="https://blinkx.in/lp/assets/images/landingimg/lambu-sitting.webp" >
+      <p>
+        
+        <h1>pay<span >Zero</span></h1><br>
+        <h1>Brokeage on all your orders<br>Join now</h1>
+      </p>
+     
+     
+    <footer>
+      <div class="row primary">
+        <div class="column about">
+          <h3>Company Name</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
+            voluptatem corporis error non, corrupti delectus unde, incidunt
+            dolorem quam porro tenetur autem? Maxime aspernatur quas, natus
+            nesciunt harum obcaecati voluptatum.
+          </p>
+        </div>
+        <div class="column links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li>
+              <a href="#faq">F.A.Q</a>
+            </li>
+            <li>
+              <a href="#cookies-policy">Cookies Policy</a>
+            </li>
+            <li>
+              <a href="#terms-of-services">Terms Of Service</a>
+            </li>
+            <li>
+              <a href="#support">Support</a>
+            </li>
+            <li>
+              <a href="#careers">Careers</a>
+            </li>
+          </ul>
+        </div>
+        <div class="column subscribe">
+          <h3>Subscribe</h3>
+          <div>
+            <input type="email" placeholder="Your email id here" />
+            <button>Subscribe</button>
+          </div>
+          <div class="social">
+            <i class="fa-brands fa-facebook-square"></i>
+            <i class="fa-brands fa-instagram-square"></i>
+            <i class="fa-brands fa-twitter-square"></i>
+          </div>
+        </div>
+      </div>
+      <div class="row secondary">
+        <div>
+          <p>
+            <i class="fas fa-phone-alt"></i>
+          </p>
+          <p>+12 123456789</p>
+        </div>
+        <div>
+          <p><i class="fas fa-envelope"></i></p>
+          <p>mail@domain.com</p>
+        </div>
+        <div>
+          <p><i class="fas fa-map-marker-alt"></i></p>
+          <p>1234 Pearl Street</p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright &copy; 2021 Coding Artist | All Rights Reserved</p>
+      </div>
+    </footer>  
+
+
+    
+  </body>
+ </html>  
